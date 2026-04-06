@@ -1,0 +1,17 @@
+[package]
+name = "sheets"
+version = "0.1.0"
+edition = "2024"
+description = "A vim-inspired terminal spreadsheet editor"
+
+[dependencies]
+ratatui = "0.30"
+crossterm = "0.29"
+clap = { version = "4", features = ["derive"] }
+csv = "1"
+unicode-width = "0.2"
+anyhow = "1"
+
+[dev-dependencies]
+pretty_assertions = "1"
+tempfile = "3"
